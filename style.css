@@ -47,6 +47,7 @@ header h1 {
 }
 
 
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -63,6 +64,43 @@ nav ul {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     margin-top: 2rem; /* Add spacing above the section */
     text-align: center; /* Center-align the content */
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack links vertically */
+        gap: 0.5rem; /* Reduce spacing between links */
+    }
+
+    nav a {
+        font-size: 1rem; /* Reduce font size */
+        padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 0.3rem; /* Further reduce spacing for very small screens */
+    }
+
+    nav a {
+        font-size: 0.9rem; /* Further reduce font size */
+        padding: 0.4rem 0.8rem; /* Adjust padding for smaller buttons */
+    }@media (max-width: 768px) {
+        nav a {
+            display: block; /* Make links take up the full width */
+            width: 100%; /* Set the width to 100% */
+            text-align: center; /* Center the text */
+            font-size: 1.2rem; /* Keep the font size readable */
+            padding: 0.8rem 0; /* Increase padding for a larger clickable area */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        nav a {
+            font-size: 1.3rem; /* Slightly increase font size for smaller screens */
+            padding: 1rem 0; /* Add more padding for better usability */
+        }
+    }
 }
 
 
