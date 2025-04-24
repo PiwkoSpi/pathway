@@ -1,0 +1,210 @@
+body {
+    font-family: 'MedievalSharp', cursive;
+    background-color: #ffe1b5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a2c2a;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 4rem; /* Increase font size */
+    margin: 0;
+    color: #fff8cf; /* Golden color for a medieval feel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    letter-spacing: 3px; /* Add spacing between letters */
+    text-transform: uppercase; /* Make the title uppercase */
+    font-family: 'MedievalSharp', cursive; /* Use a medieval-style font */
+    padding: 0.5rem; /* Add padding for spacing */
+    border-bottom: 3px solid #6b3f3d; /* Add a decorative border */
+    display: inline-block; /* Center the border with the text */
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #4a2c2a; /* Dark medieval background for the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #e9b377, #ff9407); /* Golden gradient for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid #4a2c2a; /* Add padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #ffbc56, #ff9c07); /* Reverse gradient on hover */
+    border: 2px solid #6b3f3d; /* Change border color on hover */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+#reviews {
+    border: 3px solid #4a2c2a; /* Dark medieval border color */
+    padding: 1.5rem; /* Add padding inside the box */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    background-color: #ffe1b5; /* Light parchment-like background */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-top: 2rem; /* Add spacing above the section */
+    text-align: center; /* Center-align the content */
+}
+
+
+#reviews h2 {
+    color: #4a2c2a; /* Match the border color */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#reviews blockquote {
+    font-style: italic;
+    background-color: #fff8e7; /* Slightly lighter background for quotes */
+    padding: 1rem;
+    border-left: 5px solid #4a2c2a; /* Decorative left border for quotes */
+    margin: 1rem auto;
+    max-width: 700px; /* Limit the width of quotes */
+    border-radius: 10px; /* Rounded corners for quotes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for quotes */
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+nav a {
+    display: inline-block;
+    background: linear-gradient(45deg, #4a2c2a, #6b3f3d); /* Gradient background */
+    color: #ff9900;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Add padding for a button-like appearance */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background: linear-gradient(45deg, #ff7b00, #ff950b); /* Lighter gradient on hover */
+    color: #4a2c2a; /* Darker text color */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Slightly larger shadow */
+    transform: translateY(-2px); /* Lift the button slightly */
+}
+
+/* Active State for Navigation Links */
+nav a:active {
+    transform: translateY(1px); /* Slightly press the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #4a2c2a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Features List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Reviews */
+blockquote {
+    font-style: italic;
+    background-color: #ffe1b5;
+    padding: 1rem;
+    border-left: 5px solid #4a2c2a;
+    margin: 1rem 0;
+}
+
+/* Play Button */
+.play-button {
+    display: inline-block;
+    background-color: #4a2c2a;
+    color: #ff8800;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #ff8800;
+    color: #4a2c2a;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c2a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
