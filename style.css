@@ -77,7 +77,7 @@ nav ul {
     }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 480px) {
     nav ul {
         gap: 0.3rem; /* Further reduce spacing for very small screens */
     }
@@ -88,7 +88,7 @@ nav ul {
     }@media (max-width: 768px) {
         nav a {
             display: block; /* Make links take up the full width */
-            width: 100%; /* Set the width to 100% */
+            width: 80%; /* Set the width to 100% */
             text-align: center; /* Center the text */
             font-size: 1.2rem; /* Keep the font size readable */
             padding: 0.8rem 0; /* Increase padding for a larger clickable area */
